@@ -14,14 +14,15 @@ public class TestQuestion8 {
                 new TestQuestion8().test();
         }
 
-        public void test() { ExecutorService executorService = Executors.newSingleThreadExecutor();
+        public void test() {
+                ExecutorService executorService = Executors.newSingleThreadExecutor();
                 Future<String> f = executorService.submit((Callable<String>) () -> {
                 throw new RuntimeException("Exception happened");
                 });
                 try {
-                        System.out.println("result: " + f.get());
-                }
-                catch (Exception e) {
+                       System.out.println("result: " + f.get());
+                } catch (Exception e) {
+
                 }
                 executorService.shutdown();
         }
