@@ -1,5 +1,7 @@
 package com.goit.g2popov.ee032;
 
+import com.goit.g2popov.ee032.hw032.SquareSum;
+
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 

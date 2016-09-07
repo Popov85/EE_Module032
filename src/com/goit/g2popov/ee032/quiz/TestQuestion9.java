@@ -1,4 +1,4 @@
-package com.goit.g2popov.ee032;
+package com.goit.g2popov.ee032.quiz;
 
 import java.util.ArrayList;
 import java.util.List;

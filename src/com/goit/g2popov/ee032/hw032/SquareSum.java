@@ -1,4 +1,6 @@
-package com.goit.g2popov.ee032;
+package com.goit.g2popov.ee032.hw032;
+
+import java.util.concurrent.ExecutionException;
 
 /**
  * Используя Phaser и Executors реализовать класс, который бы считал сумму квадратов элементов массива параллельно в
@@ -7,5 +9,6 @@ package com.goit.g2popov.ee032;
  * Используя Phaser, дождаться результатов всех вычислений и сложить их, получив конечный результат.
  */
 public interface SquareSum {
-        long getSquareSum(int[] values, int numberOfThreads);
+
+        long getSquareSum(int[] values, int numberOfThreads) throws ExecutionException, InterruptedException;
 }
