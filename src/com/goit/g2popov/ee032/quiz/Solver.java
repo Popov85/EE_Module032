@@ -1,4 +1,4 @@
-package com.goit.g2popov.ee032;
+package com.goit.g2popov.ee032.quiz;
 
 import com.goit.g2popov.ee032.hw032.SquareSum;
 
